@@ -24,7 +24,7 @@
     boot.loader.grub.enable = true;
     boot.loader.grub.version = 2;
 
-    system.stateVersion = "17.09"; # Did you read the comment?
+    system.stateVersion = "17.09";
 
     deployment.targetHost = "74.207.236.197";
     imports =
