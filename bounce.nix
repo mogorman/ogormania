@@ -1,5 +1,6 @@
 # bounce.nix
 {
+  network.enableRollback = true;
   bounce =
   { config, lib, pkgs, ... }:
   {
@@ -46,6 +47,8 @@
       bash
       tinc
       screen
+      fortune
+      psmisc
     ];
 
     nix.maxJobs = lib.mkDefault 1;
